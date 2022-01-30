@@ -8,9 +8,9 @@
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0006</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0007</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0008</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="gray"><font color="AntiqueWhite">0009</font></td>
   <td bgcolor="gray"><font color="AntiqueWhite">0010</font></td>
 </tr>
