@@ -2,6 +2,7 @@
 
 using namespace std;
 
+#define ONLINE_JUDGE
 #ifndef ONLINE_JUDGE
 #include "LocalDebug.h"
 #else
@@ -10,17 +11,34 @@ using namespace std;
 
 using LL = long long;
 
+
+set<int> solved_problems = {
+	1, 2, 3, 4, 5,
+};
+
 int main() {
 	int K = 1;
-	int oldest = 1, newest = 4;
 	string solved_bgcolor = "green";
 	string unsolved_bgcolor = "gray";
 	string font_color = "AntiqueWhite";
 	auto get_bgcolor = [&](int id) {
-		if (id <= newest)
+		if (solved_problems.count(id))
 			return solved_bgcolor;
 		else 
 			return unsolved_bgcolor;
+	};
+	auto get_prob = [&](int id) {
+		if (solved_problems.count(id)) {
+			string s = ":heavy_check_mark:";
+			return s;
+		}
+		else {
+			string s;
+			while (id) s.push_back(id%10+'0'), id/=10;
+			while (s.size() < 4) s.push_back('0');
+			reverse(s.begin(),s.end());
+			return s;
+		}
 	};
 	for (int k = 0; k < K; k++) {
 		printf("## %04d-%04d\n",k*100+1,k*100+100);
@@ -29,15 +47,13 @@ int main() {
 		for (int i = 1; i <= 100; i++) {
 			if (i % 10 == 1) {
 				printf("<tr>\n");
-				printf("  <td bgcolor=\"%s\"><font color=\"%s\">%04d<\/font></td>\n",get_bgcolor(base+i).c_str(),font_color.c_str(),base+i);
-			} else if (i % 100 == 0) {
-				printf("  <td bgcolor=\"%s\"><font color=\"%s\">%04d<\/font></td>\n",get_bgcolor(base+i).c_str(),font_color.c_str(),base+i);
-				printf("<\/tr>\n");
-			} else {
-				printf("  <td bgcolor=\"%s\"><font color=\"%s\">%04d<\/font></td>\n",get_bgcolor(base+i).c_str(),font_color.c_str(),base+i);
+			}
+			printf("  <td bgcolor=\"%s\"><font color=\"%s\">%s</font></td>\n",get_bgcolor(base+i).c_str(),font_color.c_str(),get_prob(base+i).c_str());
+			if (i % 10 == 0) {
+				printf("</tr>\n");
 			}
 		}
-		printf("<\/tbody><\/table>\n");
+		printf("</tbody></table>\n");
 	}	
 	return 0;
 }
