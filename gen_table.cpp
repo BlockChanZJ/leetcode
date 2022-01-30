@@ -13,7 +13,7 @@ using LL = long long;
 
 
 set<int> solved_problems = {
-	1, 2, 3, 4, 5, 6, 7, 8, 
+	1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
 };
 
 int main() {
@@ -40,6 +40,7 @@ int main() {
 			return s;
 		}
 	};
+	printf("# Leetcode\n");
 	for (int k = 0; k < K; k++) {
 		printf("## %04d-%04d\n",k*100+1,k*100+100);
 		int base = k * 100;
