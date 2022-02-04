@@ -19,11 +19,11 @@
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0016</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0017</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0018</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0019</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0020</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
 </tr>
 <tr>
   <td bgcolor="gray"><font color="AntiqueWhite">0021</font></td>
