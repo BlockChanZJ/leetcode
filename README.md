@@ -31,11 +31,11 @@
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
   <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0026</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0027</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0028</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0029</font></td>
-  <td bgcolor="gray"><font color="AntiqueWhite">0030</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
+  <td bgcolor="green"><font color="AntiqueWhite">:heavy_check_mark:</font></td>
 </tr>
 <tr>
   <td bgcolor="gray"><font color="AntiqueWhite">0031</font></td>
